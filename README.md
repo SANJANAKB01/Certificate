@@ -1,55 +1,37 @@
-# Sanjana Bhatia — Credential Registry
+# 🏅 Sanjana Bhatia — Certificate Portfolio
 
-A single-page website showcasing certificates and competition results, built as one
-self-contained HTML file (no build step, no dependencies to install).
+Hi, I'm **Sanjana Bhatia**, an Information Technology graduate from Thadomal Shahani
+Engineering College, Mumbai. This is a small website I built to showcase the
+certifications and competition results I've earned along the way — in cybersecurity,
+databases, and full-stack/AI development.
 
-## Files
+📩 sanjanakb0108@gmail.com · 📍 Mumbai, India
 
-- `certificates.html` — the whole site: markup, styles, and the certificate images
-  (embedded directly as base64 so the page works as a single file).
+---
 
-## Viewing it locally
+## 🎖 What's inside
 
-Just double-click `certificates.html`, or open it in a browser:
+| # | Credential | Issued by | Date |
+|---|------------|-----------|------|
+| 01 | **DevHack 6.0 — 1st Position**, WebDev/AppDev Track | PARSEC 5.0, IIT Dharwad | — |
+| 02 | SQL (Basic) — Certificate of Accomplishment | HackerRank | 07 May 2025 |
+| 03 | Code-ए-Manipal Hackathon — Participant | Manipal University Jaipur (LearnIT & Geekroom) | 21–22 Mar 2025 |
+| 04 | Foundations of Cybersecurity | Google, via Coursera | 08 Sep 2023 |
 
-```
-open certificates.html        # macOS
-start certificates.html       # Windows
-```
+Every entry on the site includes the issuer, the date, and a tap-to-enlarge scan of the
+original certificate — so it's not just a list, it's proof.
 
-No server, build tools, or internet connection required — everything needed is inside
-the one file (it does load two Google Fonts online; without internet it falls back to
-system serif/mono fonts).
+## 🌐 View it
 
-## Hosting it for free
+Open **`certificates.html`** in any browser — desktop or mobile. It's a single
+self-contained file, so it works instantly with no setup, and it's ready to publish to
+GitHub Pages, Netlify, or Vercel by dragging the file in.
 
-Since it's a single static HTML file, any of these work in a few minutes:
+## 🛠 Built with
 
-- **GitHub Pages** — push the file to a repo, rename it to `index.html`, enable Pages
-  in the repo settings.
-- **Netlify / Vercel** — drag and drop the file (or a folder containing it) onto their
-  dashboard.
-- **Cloudflare Pages** — same drag-and-drop deploy flow.
+Plain HTML & CSS, no frameworks — kept lightweight on purpose so it loads fast and is
+easy for me to update as I earn new credentials.
 
-## Updating content
+---
 
-Everything is in `certificates.html`:
-
-- **Text** (titles, dates, descriptions) — edit directly inside the `<div class="entry">`
-  blocks in the `<main>` section.
-- **Adding a new certificate** — copy one whole `<div class="entry">...</div>` block,
-  update the serial number, text, and swap the base64 image (see below), then bump the
-  `CREDENTIALS` count in the header stats.
-- **Certificate images** — each `<img src="data:image/jpeg;base64,...">` holds the
-  certificate image inline. To swap one, convert your new image to base64
-  (e.g. `base64 -w0 your-cert.jpg`) and replace the string between `base64,` and the
-  closing quote.
-- **Colors/fonts** — all defined as CSS variables at the top of the `<style>` block
-  (`--bg`, `--ink`, `--brass`, etc.) and the Google Fonts `<link>` tags in `<head>`.
-
-## Notes
-
-- The page is responsive: certificate images stack below the text on narrow (mobile)
-  screens and sit beside the text on wider (tablet/desktop) screens.
-- Tapping any certificate thumbnail opens it full-size in a lightbox; tap outside the
-  image or press Esc to close.
+*Thanks for stopping by my certificate wall — more to come as I keep learning.* ✨
