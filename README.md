@@ -13,7 +13,7 @@ databases, and full-stack/AI development.
 
 | # | Credential | Issued by | Date |
 |---|------------|-----------|------|
-| 01 | **DevHack 6.0 — 1st Position**, WebDev/AppDev Track | PARSEC 5.0, IIT Dharwad | — |
+| 01 | **DevHack 6.0 — 1st Position**, WebDev/AppDev Track | PARSEC 5.0, IIT Dharwad | 29-31 Jan 2025 |
 | 02 | SQL (Basic) — Certificate of Accomplishment | HackerRank | 07 May 2025 |
 | 03 | Code-ए-Manipal Hackathon — Participant | Manipal University Jaipur (LearnIT & Geekroom) | 21–22 Mar 2025 |
 | 04 | Foundations of Cybersecurity | Google, via Coursera | 08 Sep 2023 |
